@@ -1,4 +1,4 @@
-=== Twenty Twenty-Three ===
+=== horoscopo180.com ===
 Contributors: wordpressdotorg
 Requires at least: 6.1
 Tested up to: 6.5
@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community.
+horoscopo180.com is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community.
 
 Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
 
@@ -42,8 +42,8 @@ https://wordpress.org/documentation/article/twenty-twenty-three-changelog/#Versi
 
 == Copyright ==
 
-Twenty Twenty-Three WordPress Theme, (C) 2022-2024 WordPress.org
-Twenty Twenty-Three is distributed under the terms of the GNU GPL.
+horoscopo180.com WordPress Theme, (C) 2022-2024 WordPress.org
+horoscopo180.com is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

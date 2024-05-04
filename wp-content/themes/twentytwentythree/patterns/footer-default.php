@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Default Footer
- * Slug: twentytwentythree/footer-default
+ * Slug: horoscopo180/footer-default
  * Categories: footer
  * Block Types: core/template-part/footer
  */
@@ -16,8 +16,8 @@
 		<?php
 		printf(
 			/* Translators: WordPress link. */
-			esc_html__( 'Proudly powered by %s', 'twentytwentythree' ),
-			'<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentythree' ) ) . '" rel="nofollow">WordPress</a>'
+			esc_html__( 'Proudly powered by %s', 'horoscopo180' ),
+			'<a href="' . esc_url( __( 'https://wordpress.org', 'horoscopo180' ) ) . '" rel="nofollow">WordPress</a>'
 		)
 		?>
 		</p>
