@@ -1,14 +1,10 @@
 {
-	"name": "themes-starter",
+	"name": "horoscopo180",
 	"version": "3.0.0",
 	"license": "GPL-2.0",
 	"description": "A WordPress Starter Theme built with Bootstrap 5.",
-	"homepage": "https://them.es",
-	"author": "them.es",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/them-es/themes-starter.git"
-	},
+	"homepage": "horoscopo180.com",
+	"author": "horoscopo180",
 	"scripts": {
 		"watch": "webpack serve && wp-scripts start",
 		"build": "wp-scripts build"

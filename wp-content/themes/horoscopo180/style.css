@@ -202,3 +202,37 @@ a img.aligncenter {
 	width: auto;
 	z-index: 100000; /* Above WP toolbar. */
 }
+
+
+/**/
+body{
+	background-color: #202020 !important;
+	color: #fff !important;
+}
+
+
+
+.characteristics
+{
+	h3
+	{
+		display: block;
+		margin-top: 20px;
+		color: #EE9360;
+	}
+	p
+	{
+
+	}
+	.itemImage
+	{
+		img
+		{
+			max-width: 300px;
+			display: block;
+			width: 90%;
+			margin: 0 auto;
+			filter: drop-shadow(2px 4px 6px #EE9360);
+		}
+	}	
+}
