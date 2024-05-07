@@ -3,6 +3,9 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Julee&family=MedievalSharp&display=swap" rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>
@@ -70,6 +73,9 @@
 			</div><!-- /.container -->
 		</nav><!-- /#header -->
 	</header>
+	<div id='stars'></div>
+	<div id='stars2'></div>
+	<div id='stars3'></div>
 
 	<main id="main" class="container"<?php if ( isset( $navbar_position ) && 'fixed_top' === $navbar_position ) : echo ' style="padding-top: 100px;"'; elseif ( isset( $navbar_position ) && 'fixed_bottom' === $navbar_position ) : echo ' style="padding-bottom: 100px;"'; endif; ?>>
 		<?php

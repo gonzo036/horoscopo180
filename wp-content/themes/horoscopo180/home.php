@@ -6,34 +6,32 @@
  */
 
 get_header();
+$theme_uri = get_stylesheet_directory_uri();
 
 the_post();
 ?>
-
 	<div class="container">
 
-		<section class="row">
-			<?php while (have_rows('characteristics')) : the_row();?>
-				<div class="col-lg-4 col-md-12 characteristics">
-					<div class="itemImage">
-						<img src="<?php the_sub_field('image_characteristics'); ?>" alt="">
-					</div>
-					<h3 class="itemTitle">
-						<?php the_sub_field('title_characteristics', 'option'); ?>
-					</h3>
-					<p class="itemText">
-						<?php the_sub_field('text_characteristics', 'option'); ?>
-					</p>
-				</div><!-- /.col -->
-			<?php endwhile; ?>
-		</section>><!-- /.row -->
+		<section class="banner">
+			<div class="bannerTextHome">
 
-		<section class="as_zodiac_sign_wrapper">
+				<span> Cada día tu horóscopo gratis </span>
+				<h1> Esta por empezar
+					<span> El viaje de tu vida </span>
+				</h1>
+				<p> El horóscopo de hoy gratis, las claves del destino en Amor, Dinero y Salud para los signos del zodiaco: Aries, Tauro, Géminis, Cáncer, Leo, Virgo, Libra, Escorpio, Sagitario, Capricornio, Piscis.</p>
+				<a class="start">
+					<span class="text">Quieres empezar</span>
+				</a>
+			</div>
+		</section>
+
+		<section class="zodiac">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h1 class="as_heading as_heading_center">choose zodiac sign</h1>
-                        <p class="as_font14 as_margin0">Consectetur adipiscing elit, sed do eiusmod tempor incididuesdeentiut labore <br>etesde dolore magna aliquapspendisse and the gravida.</p>
+                        <h1>Selecciona tu signo zodical</h1>
+                        <p>Atrevete conocer que preparan los astros para ti</p>
                         <div class="as_zodiac_inner text-left">
                             <div class="row as_verticle_center">
                                 <div class="col-lg-3 col-md-12 col-sm-12 col-12">
@@ -41,7 +39,7 @@ the_post();
                                         <li class="as_sign_box">
                                             <a href="zodiac_single.html">
                                                 <span class="as_sign">
-                                                <img src="images/sign1.svg" alt="">
+                                                <img src="<?php echo $theme_uri; ?>/images/sign1.svg" alt="">
                                                 </span>
                                                 <div>
                                                     <h5>Aries</h5>
@@ -52,7 +50,7 @@ the_post();
                                         <li class="as_sign_box">
                                             <a href="zodiac_single.html">
                                                 <span class="as_sign">
-                                                <img src="images/sign2.svg" alt="">
+                                                <img src="<?php echo $theme_uri; ?>/images/sign2.svg" alt="">
                                                 </span>
                                                 <div>
                                                     <h5>Taurus </h5>
@@ -63,7 +61,7 @@ the_post();
                                         <li class="as_sign_box">
                                             <a href="zodiac_single.html">
                                                 <span class="as_sign">
-                                                <img src="images/sign3.svg" alt="">
+                                                <img src="<?php echo $theme_uri; ?>/images/sign3.svg" alt="">
                                                 </span>
                                                 <div>
                                                     <h5>Gemini</h5>
@@ -74,7 +72,7 @@ the_post();
                                         <li class="as_sign_box">
                                             <a href="zodiac_single.html">
                                                 <span class="as_sign">
-                                                <img src="images/sign4.svg" alt="">
+                                                <img src="<?php echo $theme_uri; ?>/images/sign4.svg" alt="">
                                                 </span>
                                                 <div>
                                                     <h5>Cancer</h5>
@@ -85,7 +83,7 @@ the_post();
                                         <li class="as_sign_box">
                                             <a href="zodiac_single.html">
                                                 <span class="as_sign">
-                                                <img src="images/sign5.svg" alt="">
+                                                <img src="<?php echo $theme_uri; ?>/images/sign5.svg" alt="">
                                                 </span>
                                                 <div>
                                                     <h5>Leo</h5>
@@ -96,7 +94,7 @@ the_post();
                                         <li class="as_sign_box">
                                             <a href="zodiac_single.html">
                                                 <span class="as_sign">
-                                                <img src="images/sign6.svg" alt="">
+                                                <img src="<?php echo $theme_uri; ?>/images/sign6.svg" alt="">
                                                 </span>
                                                 <div>
                                                     <h5>Virgo</h5>
@@ -106,9 +104,9 @@ the_post();
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center">
                                     <div class="as_sign_img text-center">
-                                        <img src="images/zodiac.png" alt="" class="img-responsive">
+                                        <img src="<?php echo $theme_uri; ?>/images/zodiac.png" alt="" class="img-responsive">
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-12 col-sm-12 col-12">
@@ -116,7 +114,7 @@ the_post();
                                         <li class="as_sign_box">
                                             <a href="zodiac_single.html">
                                                 <span class="as_sign">
-                                                <img src="images/sign7.svg" alt="">
+                                                <img src="<?php echo $theme_uri; ?>/images/sign7.svg" alt="">
                                                 </span>
                                                 <div>
                                                     <h5>Libra</h5>
@@ -127,7 +125,7 @@ the_post();
                                         <li class="as_sign_box">
                                             <a href="zodiac_single.html">
                                                 <span class="as_sign">
-                                                <img src="images/sign8.svg" alt="">
+                                                <img src="<?php echo $theme_uri; ?>/images/sign8.svg" alt="">
                                                 </span>
                                                 <div>
                                                     <h5>Scorpio</h5>
@@ -138,7 +136,7 @@ the_post();
                                         <li class="as_sign_box">
                                             <a href="zodiac_single.html">
                                                 <span class="as_sign">
-                                                <img src="images/sign9.svg" alt="">
+                                                <img src="<?php echo $theme_uri; ?>/images/sign9.svg" alt="">
                                                 </span>
                                                 <div>
                                                     <h5>Sagittarius</h5>
@@ -149,7 +147,7 @@ the_post();
                                         <li class="as_sign_box">
                                             <a href="zodiac_single.html">
                                                 <span class="as_sign">
-                                                <img src="images/sign10.svg" alt="">
+                                                <img src="<?php echo $theme_uri; ?>/images/sign10.svg" alt="">
                                                 </span>
                                                 <div>
                                                     <h5>Capricorn</h5>
@@ -160,7 +158,7 @@ the_post();
                                         <li class="as_sign_box">
                                             <a href="zodiac_single.html">
                                                 <span class="as_sign">
-                                                <img src="images/sign11.svg" alt="">
+                                                <img src="<?php echo $theme_uri; ?>/images/sign11.svg" alt="">
                                                 </span>
                                                 <div>
                                                     <h5>Capricorn</h5>
@@ -171,7 +169,7 @@ the_post();
                                         <li class="as_sign_box">
                                             <a href="zodiac_single.html">
                                                 <span class="as_sign">
-                                                <img src="images/sign12.svg" alt="">
+                                                <img src="<?php echo $theme_uri; ?>/images/sign12.svg" alt="">
                                                 </span>
                                                 <div>
                                                     <h5>Pisces</h5>
@@ -187,6 +185,24 @@ the_post();
                 </div>
             </div>
         </section>
+
+		<section class="row services">
+			<?php while (have_rows('characteristics')) : the_row();?>
+				<div class="col-lg-4 col-md-12 characteristics">
+					<div class="itemImage">
+						<img src="<?php the_sub_field('image_characteristics'); ?>" alt="">
+					</div>
+					<h3 class="itemTitle">
+						<?php the_sub_field('title_characteristics', 'option'); ?>
+					</h3>
+					<p class="itemText">
+						<?php the_sub_field('text_characteristics', 'option'); ?>
+					</p>
+				</div><!-- /.col -->
+			<?php endwhile; ?>
+		</section>><!-- /.row -->
+		
+
 	</div>
 
 <?php
